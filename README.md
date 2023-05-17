@@ -1,4 +1,4 @@
-# README
+# Discuss
 
 Welcome to our GitHub repository!
 
