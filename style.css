@@ -1,0 +1,46 @@
+:root{
+    --clr-white: #ffffff;
+    --clr-black: #000000;
+    --clr-grey-1: #939ba7;
+    --clr-grey-2: #3c444f;
+    --clr-grey-3: #21262e;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100svh;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.navbar h2{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar__left{
+    display: flex;
+}
+
+.navbar__right{
+    display: flex;
+}
+
+.navbar__left-right{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
