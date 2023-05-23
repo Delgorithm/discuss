@@ -12,6 +12,7 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -28,19 +29,41 @@ body{
 .navbar h2{
     display: flex;
     align-items: center;
+    font-size: 2.5em;
     gap: 0.5rem;
 }
 
 .navbar__left{
     display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
 }
 
 .navbar__right{
     display: flex;
+    gap: 1rem;
 }
 
 .navbar__left-right{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__right .sign-in,
+.navbar__right .log-in{
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+a{
+    color: var(--clr-black);
+}
+
+/* discuss quote */
+.discuss__quote{
+    display: grid;
+    place-content: center;
 }
