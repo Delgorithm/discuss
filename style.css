@@ -19,6 +19,10 @@ body{
     min-height: 100svh;
 }
 
+main{
+    position: relative;
+}
+
 /* Navbar */
 .navbar{
     display: flex;
@@ -26,10 +30,10 @@ body{
     margin: 1rem;
 }
 
-.navbar h2{
+.navbar h2 a{
     display: flex;
     align-items: center;
-    font-size: 2.5em;
+    font-size: 1.5em;
     gap: 0.5rem;
 }
 
@@ -56,6 +60,7 @@ body{
 .navbar__right .log-in{
     padding: 0.8rem;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 a{
@@ -66,4 +71,17 @@ a{
 .discuss__quote{
     display: grid;
     place-content: center;
+    min-height: 70svh;
+}
+
+.discuss__quote h1{
+    margin: 2rem;
+}
+
+.discuss__quote .btn__create-account,
+.discuss__quote .btn__discuss{
+    margin: 0.6rem;
+    padding: 0.6rem;
+    border-radius: 10px;
+    cursor: pointer;
 }
