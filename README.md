@@ -1,3 +1,5 @@
+**All of this is just an exercise aimed at improving and solidifying my skills, while also discovering things that I'm unaware of and figuring out how to utilize them. I hope to succeed in accomplishing this ambitious project.**
+
 # Discuss
 
 Welcome to our GitHub repository!
