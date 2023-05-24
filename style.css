@@ -82,6 +82,18 @@ a{
 .discuss__quote .btn__discuss{
     margin: 0.6rem;
     padding: 0.6rem;
-    border-radius: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.discuss__quote picture{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.discuss__quote picture img{
+    width: 120px;
     cursor: pointer;
 }
