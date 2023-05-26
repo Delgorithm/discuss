@@ -23,5 +23,5 @@ menu_btn.addEventListener('click', function () {
 });
 
 btn_create_account.addEventListener('click', function () {
-    window.location.href = "account.html";
+    window.location.href = "../html/account.html";
 });
