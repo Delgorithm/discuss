@@ -1,9 +1,9 @@
 :root{
-    --clr-white: #ffffff;
-    --clr-black: #000000;
-    --clr-grey-1: #939ba7;
-    --clr-grey-2: #3c444f;
-    --clr-grey-3: #21262e;
+    --clr-white: #f6f6f6;
+    --clr-black: #040404;
+    --clr-grey-1: #7c7c7c;
+    --clr-grey-2: #595959;
+    --clr-green: #63d293;
 
     --fs-low : 1em;
     --fs-medium : 1.5em;
@@ -24,9 +24,25 @@ body{
     min-height: 100svh;
 }
 
+a{
+    color: var(--clr-green);
+}
+
+/* --------------------------- Banner ------------------------------ */
+
+.banner{
+    position: relative;
+    width: 100%;
+}
+
+.banner .waves{
+    position: absolute;
+    z-index: -1;
+}
+
+/* --------------------------- First container ------------------------------ */
+
 .first-container{
-    background-color: pink;
-    color: --w;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +51,8 @@ body{
 }
 
 .first-container h1{
-    font-size:var(--fs-big)
+    font-size:var(--fs-big);
+    color: var(--clr-green);
 }
 
 .first-container p{
@@ -44,6 +61,50 @@ body{
 
 .first-container p a{
     text-decoration: underline;
+}
+
+/* --------------------------- Sign In ------------------------------ */
+.form-creation-account{
+    position: relative;
+    width: 100%;
+}
+
+.container-creation-account{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1vmax;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="psw-repeat"]{
+    margin-bottom: 1.6rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid var(--clr-grey-2);
+}
+
+label{
+    color: var(--clr-black);
+    font-size: 0.95em;
+}
+
+.clearfix{
+    display: grid;
+    align-self: center;
+    width: 100%;
+    padding-bottom: 1.4rem;
+}
+
+.signin-btn{
+    padding: 0.6rem;
+    border-radius: 10vmax;
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    border: none;
+    cursor: pointer;
+
 }
 
 /* --------------------------- Btn : Cross-exit ------------------------------ */
@@ -60,7 +121,7 @@ body{
     outline: none;
     border: none;
     z-index: 99;
-    background-color: red;
+    background-color: transparent;
 }
 
 .cross-exit::after,
@@ -80,3 +141,5 @@ body{
 .cross-exit:after{
     transform: rotate(45deg) translate(-7px, 0px);
 }
+
+
