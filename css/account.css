@@ -1,0 +1,47 @@
+:root{
+    --clr-white: #ffffff;
+    --clr-black: #000000;
+    --clr-grey-1: #939ba7;
+    --clr-grey-2: #3c444f;
+    --clr-grey-3: #21262e;
+
+    --fs-low : 1em;
+    --fs-medium : 1.5em;
+    --fs-big : 2em;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    min-height: 100svh;
+}
+
+.first-container{
+    background-color: pink;
+    color: --w;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.first-container h1{
+    font-size:var(--fs-big)
+}
+
+.first-container p{
+    text-align: center;
+}
+
+.first-container p a{
+    text-decoration: underline;
+}
