@@ -2,6 +2,9 @@ const menu_btn = document.querySelector('.hamburger');
 const mobile_menu = document.querySelector('.navbar__mobile');
 const discuss_title = document.querySelector('.navbar-logo-title');
 
+// btn hamburger
+const btn_bar = document.querySelector('.bar');
+
 // btn create account
 const btn_create_account = document.querySelector('.btn__create-account');
 
@@ -21,4 +24,4 @@ menu_btn.addEventListener('click', function () {
 
 btn_create_account.addEventListener('click', function () {
     window.location.href = "account.html";
-})
+});
