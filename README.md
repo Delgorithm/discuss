@@ -2,6 +2,8 @@
 
 **Currently developping for Mobile first then I'll switch to other media queries**
 
+#### If you want to have an insight : https://discuss-tau.vercel.app/
+
 # Discuss
 
 Welcome to our GitHub repository!
