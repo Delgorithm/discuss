@@ -1,5 +1,3 @@
-
-
 :root{
     --clr-white: #ffffff;
     --clr-black: #000000;
@@ -158,7 +156,7 @@ a{
     }
 
     .navbar__mobile a:hover{
-        color:rgb(2, 177, 2);
+        color: var(--clr-grey-1);
         transition: .3s;
     }
 
