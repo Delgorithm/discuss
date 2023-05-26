@@ -104,7 +104,10 @@ label{
     color: var(--clr-white);
     border: none;
     cursor: pointer;
+}
 
+.signin-btn:hover{
+    opacity: 0.8;
 }
 
 /* --------------------------- Btn : Cross-exit ------------------------------ */
