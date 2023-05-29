@@ -4,6 +4,8 @@
 
 #### If you want to have an insight : https://discuss-tau.vercel.app/
 
+(It might not work since Vercel doesn't work well with Node.js. I have to find a way without using Heroku)
+
 # Discuss
 
 Welcome to our GitHub repository!
