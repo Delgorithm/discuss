@@ -8,7 +8,6 @@ const btn_signin_hamburger = document.querySelector('.sign-in__mobile');
 const btn_bar = document.querySelector('.bar');
 
 // btn create account
-
 const btn_create_account = document.querySelector('.btn__create-account');
 
 let isChanged = false;
