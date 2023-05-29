@@ -26,10 +26,10 @@ menu_btn.addEventListener('click', function () {
 });
 
 btn_create_account.addEventListener('click', function () {
-    window.location.href = "../public/html/account.html";
+    window.location.href = "/html/account.html";
 });
 
 // Event listener click on btn_signin_hamburger
 btn_signin_hamburger.addEventListener('click', function () {
-    window.location.href = "../public/html/account.html";
+    window.location.href = "/html/account.html";
 });

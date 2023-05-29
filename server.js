@@ -9,6 +9,5 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-
-// Ecouter le port 
+// Ecouter le port
 app.listen(PORT, () => console.log(`Server listening on port: http://localhost:${PORT}`));
