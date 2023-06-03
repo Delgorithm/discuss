@@ -17,7 +17,7 @@
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
@@ -91,13 +91,14 @@ label{
 }
 
 .clearfix{
-    display: grid;
-    align-self: center;
+    display: flex;
+    justify-content: center;
     width: 100%;
     padding-bottom: 1.4rem;
 }
 
 .signin-btn{
+    width: clamp(50px, 10em, 500px);
     padding: 0.6rem;
     border-radius: 10vmax;
     background-color: var(--clr-green);
