@@ -12,7 +12,7 @@
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
@@ -24,6 +24,10 @@ main{
 }
 
 /* ====================================== Navbar ======================================  */
+.hamburger{
+    display: none;
+}
+
 .navbar{
     position: relative;
     display: flex;
