@@ -1,1 +1,78 @@
-<h1>log in</h1>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/login.css" />
+    <title>Log In</title>
+  </head>
+  <body>
+    <main>
+      <!-- Banner wave -->
+      <section class="banner">
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#63d293"
+            fill-opacity="1"
+            d="M0,256L48,229.3C96,203,192,149,288,144C384,139,480,181,576,213.3C672,245,768,267,864,245.3C960,224,1056,160,1152,133.3C1248,107,1344,117,1392,122.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+      </section>
+
+      <!-- Logo + Title H2 -->
+      <section class="first-container">
+        <picture>
+          <img
+            src="/images/icons8-chat-64.png"
+            alt="Discuss' logo"
+            loading="lazy"
+          />
+        </picture>
+        <h1>Log In</h1>
+
+        <!-- Sign in  -->
+        <form class="form-creation-account" action="" method="POST">
+          <div class="container-creation-account">
+            <label for="pseudonym">Pseudonym</label>
+            <input
+              type="text"
+              placeholder="Enter Pseudonym"
+              name="pseudonym"
+              required
+            />
+
+            <label for="psw">Password</label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              required
+            />
+
+            <div class="clearfix">
+              <button type="submit" class="login-btn">Log In</button>
+            </div>
+
+            <p>
+              <a href="#">Forgot password</a>
+            </p>
+          </div>
+        </form>
+
+        <button class="cross-exit"></button>
+      </section>
+      <section class="second-container"></section>
+    </main>
+    <script src="/js/account.js" defer></script>
+  </body>
+</html>
