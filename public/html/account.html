@@ -11,6 +11,11 @@
     />
     <link rel="stylesheet" href="/css/account.css" />
     <title>Create account</title>
+    <script
+      src="https://kit.fontawesome.com/35f3e57748.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
   </head>
   <body>
     <main>
@@ -41,52 +46,48 @@
         <h1>Create Account</h1>
 
         <!-- Sign in  -->
-        <form
-          class="form-creation-account"
-          action="/html/account.html"
-          method="POST"
-          id="form"
-        >
-          <div class="container-creation-account">
-            <label for="pseudonym">Pseudonym</label>
-            <input
-              type="text"
-              placeholder="Enter Pseudonym"
-              required
-              id="pseudonym"
-              name="pseudonym"
-              autocomplete="off"
-              minlength="6"
-            />
-            <small></small>
+        <form class="form" action="/html/account.html" method="POST" id="form">
+          <div class="form-container">
+            <label for="username">Username</label>
+            <div class="input-wrapper">
+              <input
+                type="text"
+                placeholder="Enter your username"
+                id="username"
+                name="username"
+              />
+              <i class="fa-solid fa-circle-check"></i>
+              <i class="fa-solid fa-circle-xmark"></i>
+              <small>Error message</small>
+            </div>
 
-            <label for="psw">Password</label>
-            <input
-              type="password"
-              placeholder="Enter Password"
-              id="psw"
-              name="psw"
-              required
-              autocomplete="off"
-              minlength="6"
-              maxlength="32"
-            />
-            <small></small>
+            <label for="password1">Password</label>
+            <div class="input-wrapper">
+              <input
+                type="password"
+                placeholder="Enter your password"
+                id="password1"
+                name="password1"
+              />
+              <i class="fa-solid fa-circle-check"></i>
+              <i class="fa-solid fa-circle-xmark"></i>
+              <small>Error message</small>
+            </div>
 
-            <label for="psw-repeat">Repeat Password</label>
-            <input
-              type="password"
-              placeholder="Repeat Password"
-              id="psw-repeat"
-              name="psw-repeat"
-              required
-              autocomplete="off"
-              minlength="6"
-              maxlength="32"
-            />
-            <small></small>
+            <label for="password2">Repeat Password</label>
+            <div class="input-wrapper">
+              <input
+                type="password"
+                placeholder="Repeat your password"
+                id="password2"
+                name="password2"
+              />
+              <i class="fa-solid fa-circle-check"></i>
+              <i class="fa-solid fa-circle-xmark"></i>
+              <small>Error message</small>
+            </div>
 
-            <div class="clearfix">
+            <div class="btn-submit">
               <button type="submit" class="signin-btn">Sign In</button>
             </div>
 
@@ -97,7 +98,7 @@
           </div>
         </form>
 
-        <p>
+        <p class="info">
           By clicking Sign In, you agree to our
           <a href="/html/terms.html">Terms</a>. Learn how we process your data
           in our <a href="/html/privacy.html">Privacy Policy</a> and
@@ -106,7 +107,6 @@
 
         <button class="cross-exit"></button>
       </section>
-      <section class="second-container"></section>
     </main>
     <script src="/js/account.js" defer></script>
   </body>
