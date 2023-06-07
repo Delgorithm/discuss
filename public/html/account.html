@@ -45,30 +45,46 @@
           class="form-creation-account"
           action="/html/account.html"
           method="POST"
+          id="form"
         >
           <div class="container-creation-account">
             <label for="pseudonym">Pseudonym</label>
             <input
               type="text"
               placeholder="Enter Pseudonym"
-              name="pseudonym"
               required
+              id="pseudonym"
+              name="pseudonym"
+              autocomplete="off"
+              minlength="6"
             />
+            <small></small>
 
             <label for="psw">Password</label>
             <input
               type="password"
               placeholder="Enter Password"
+              id="psw"
               name="psw"
               required
+              autocomplete="off"
+              minlength="6"
+              maxlength="32"
             />
+            <small></small>
+
             <label for="psw-repeat">Repeat Password</label>
             <input
               type="password"
               placeholder="Repeat Password"
+              id="psw-repeat"
               name="psw-repeat"
               required
+              autocomplete="off"
+              minlength="6"
+              maxlength="32"
             />
+            <small></small>
 
             <div class="clearfix">
               <button type="submit" class="signin-btn">Sign In</button>
