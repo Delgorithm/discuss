@@ -64,38 +64,91 @@ a{
 }
 
 /* --------------------------- Sign In ------------------------------ */
-.form-creation-account{
+
+.form{
     position: relative;
+    display: flex;
+    justify-content: center;
+    
     width: 100%;
 }
 
-.container-creation-account{
+.form-container{
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    border-radius: 1vmax;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="psw-repeat"]{
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 0.4rem;
     margin-bottom: 1.6rem;
-    padding: 0.5rem;
-    border: none;
     border-bottom: 1px solid var(--clr-grey-2);
 }
 
-label{
-    color: var(--clr-black);
-    font-size: 0.95em;
+.form input{
+    border: none;
+    padding: 0.5rem;
+    width: calc(18em + 10px);
+    outline: 0;
 }
 
-.clearfix{
+.form input:focus{
+    outline-color: transparent;
+    outline: 0;
+}
+
+.form.success input{
+    border-color: #2ecc71;
+}
+
+.form.error input {
+	border-color: #e74c3c;
+}
+
+.form.success i.fa-circle-check{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form.success i.fa-circle-xmark{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form i{
+    visibility: hidden;
+    position: absolute;
+    left: 290px;
+}
+
+
+
+.btn-submit{
     display: flex;
     justify-content: center;
-    width: 100%;
     padding-bottom: 1.4rem;
 }
+
+
+
+label{
+    font-size: var(--fs-small);
+    font-weight: 600;
+}
+
+.form small{
+    color: #e74c3c;
+    position: absolute;
+    left: 220px;
+    visibility: hidden;
+}
+
+.form.error small{
+    visibility: visible;
+}
+
 
 .signin-btn{
     width: clamp(50px, 10em, 500px);
@@ -109,6 +162,10 @@ label{
 
 .signin-btn:hover{
     opacity: 0.8;
+} */
+
+.info{
+    padding: 1rem;
 }
 
 /* --------------------------- Btn : Cross-exit ------------------------------ */
