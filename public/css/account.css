@@ -123,14 +123,11 @@ a{
     left: 290px;
 }
 
-
-
 .btn-submit{
     display: flex;
     justify-content: center;
     padding-bottom: 1.4rem;
 }
-
 
 
 label{
@@ -162,7 +159,7 @@ label{
 
 .signin-btn:hover{
     opacity: 0.8;
-} */
+}
 
 .info{
     padding: 1rem;
